@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+
+        <div class="logo">
+            🛡️ CyberShield
+        </div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="password.html">Password Tools</a></li>
+            <li><a href="urlchecker.html">URL Checker</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="tips.html">Tips</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+
+    </nav>
+
+    <section class="title-section">
+
+        <h1>🧠 Cyber Security Quiz</h1>
+
+        <h2>Test Your Cyber Security Knowledge</h2>
+
+    </section>
+
+    <section class="tool-box">
+
+        <h3 id="quizQuestion">
+            Loading Question...
+        </h3>
+
+        <button onclick="answerQuiz(true)">
+            Yes
+        </button>
+
+        <button onclick="answerQuiz(false)">
+            No
+        </button>
+
+        <br><br>
+
+        <p id="quizResult"></p>
+
+        <button onclick="restartQuiz()">
+            Restart Quiz
+        </button>
+
+    </section>
+
+    <footer>
+
+        <p>Developed by Vidhi Bhurani</p>
+
+        <p>CyberShield © 2026</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
